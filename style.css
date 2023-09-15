@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.m-4{
+  line-height: 60px;
+}
+.container-fluid{
+    background-color: none;
+    margin-top: -2% !important;
+}
+.dropdown-toggle:hover{
+    background-color: #F1BC31;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    background-color: #F1BC31;
+}
+
+/* Search Courses CSS Part  */
+.contain-4{
+    width: 100% !important;
+    height: 400px !important;
+    background-image: url(search.png);
+    filter: opacity(0.4);
+  }
+  .contain-4:hover{
+  
+    filter: saturate(2.2);
+  }
+
+.input-group-1{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 30%;
+    height: 30px;
+    background: none;
+    float: left;
+}
+ .custom-select{
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 40%;
+    height: 30px;
+    background: none;
+    float: right;
+}
+.button-5{
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 45%;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: none; 
+  }
+  .button-5:hover{
+    -webkit-transform: scale(1.1);
+    background: #F1BC31;
+  }
+  .button-6{
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease-in-out;
+  }
+  .button-6:hover{
+    -webkit-transform: scale(1.1);
+    background: #F1BC31;
+  }
+
+  /* Courses Part End */
+
+  /* Grid Column 4 Start */
+
+  .set-image{
+    width: 100% !important;
+  }
+  .container-fluid-1{
+     background-color: rgba(241, 188, 49, 0.7) !important;
+  }
+  .title{
+    font-weight: bolder;
+    color: black;
+  }
+  .headings{
+    font-weight: bold;
+    color: black;
+  }
+  .text-reset:hover{
+    color: #ffc107 !important;
+  }
+
+  /*  Grid Column 4 End*/
+
+  /* Half Slider Start */
+  .contain-5{
+    background-color: rgb(224, 220, 214);
+  }
+  .button-8{
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: black;
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s ease-in-out;
+  }
+  .button-8:hover{
+    -webkit-transform: scale(1.1);
+    background: #F1BC31;
+    color: black;
+  }
+
+  /* Half Slider End */
+
+  /* footer CSS Start */
+
+  .headings{
+    font-weight: bold;
+    color: black;
+  }
+  .text-reset{
+    text-decoration: none;    
+  }
+  .text-reset:hover{
+    color: #ffc107 !important;
+  }
+
+  /* footer CSS End */
+
+
+  /* Sign Upn Form CSS */
+
+  body{ 
+    background:#EAE9E5;
+     } 
+     .login_form{
+       margin-top: 25%;
+      background: #fff;
+      padding: 30px; 
+         box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+         border-radius: 5px;
+     }
+     .form_btn{ 
+       background: #fb641b;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+        border: none;
+        color: #fff; 
+        width: 100% 
+      }
+      .label_txt{ 
+    font-size: 12px; 
+       }  
+       .form-control{border-radius: 25px }
+       .signup_form{ 
+        background: #fff;
+      padding-left: 25px; 
+       padding-right: 25px; 
+          padding-bottom:5px; 
+         box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.28);
+         border-radius: 5px;
+        }
+        .logo{ 
+          height: 50px; 
+          width: auto; 
+            display: block;
+      margin-left: auto;
+      margin-right: auto;
+         }
+         .errmsg{ 
+      margin: 2px auto;
+      border-radius: 5px;
+      border: 1px solid red;
+      background: pink;
+      text-align: left;
+      color: brown;
+      padding: 1px;
+    }
+    .successmsg{
+      margin: 5px auto;
+      border-radius: 5px;
+      border: 1px solid green;
+      background: #33CC00;
+      text-align: left;
+      color: white;
+      padding: 10px;
+    }
+  /* Sign Upn Form CSS */
